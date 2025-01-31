@@ -9,7 +9,7 @@ const Navbar = ({ activePath }: { activePath: string }) => {
   const activeStyle = 'text-[rgb(255,56,17)] before:w-full';
 
   return (
-    <nav className="flex items-center justify-between w-full relative bg-white container rounded-full px-[10px] py-[8px]">
+    <nav className="flex items-center justify-between w-full relative bg-white container rounded-full mx-auto px-[10px] py-[8px]">
       {/* logo */}
       <Image src="https://i.ibb.co/0BZfPq6/darklogo.png" alt="logo" width={55} height={55} />
 
