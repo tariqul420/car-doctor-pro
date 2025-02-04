@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Login() {
   return (
-    <div className="container mx-auto my-20 flex gap-8 items-center">
+    <div className="container m-auto my-20 flex gap-8 items-center">
       <div>
         <Image src={`/assets/images/login/login.svg`} alt="Login img" width={600} height={400} />
       </div>

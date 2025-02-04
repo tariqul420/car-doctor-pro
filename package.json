@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@types/mongoose": "^5.11.97",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
     "keep-react": "^1.6.1",
     "mongoose": "^8.9.6",
     "next": "15.1.6",
+    "next-auth": "^4.24.11",
     "phosphor-react": "^1.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
