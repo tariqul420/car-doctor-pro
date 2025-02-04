@@ -39,7 +39,12 @@ const Navbar = ({ activePath }: { activePath: string }) => {
 
       {/* action buttons */}
       <div className="items-center gap-[10px] flex">
-        <Button color="secondary">Appointment</Button>
+        <Link href={'/register'}>
+          <Button color="secondary">Register</Button>
+        </Link>
+        <Link href={'/login'}>
+          <Button color="secondary">Login</Button>
+        </Link>
 
         <CiMenuFries className="text-[1.8rem] mr-1 text-[#424242] cursor-pointer md:hidden flex" />
       </div>

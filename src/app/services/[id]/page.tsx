@@ -20,7 +20,7 @@ interface serviceDocument {
 }
 
 export default async function ServiceDetails({ params }: ServiceDetailsProps) {
-  const { id } = params;
+  const { id } = await params;
 
   await dbConnect();
   const data = ((await Service.findById(id)) as serviceDocument) || {};
